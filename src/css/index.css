@@ -10,3 +10,6 @@ li:nth-child(even) {
 li:nth-child(odd) {
     color: green;
 }
+p:not(.text) {
+    color: red;
+}
