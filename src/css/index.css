@@ -4,3 +4,9 @@ span:first-child {
 span:last-child {
     color: green;
 }
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: green;
+}
