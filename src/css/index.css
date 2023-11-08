@@ -4,9 +4,9 @@ span:first-child {
 span:last-child {
     color: green;
 }
-li:first-child {
+li:nth-child(even) {
     color: red;
 }
-li:last-child {
+li:nth-child(odd) {
     color: green;
 }
