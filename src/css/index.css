@@ -4,12 +4,6 @@ span:first-child {
 span:last-child {
     color: green;
 }
-li:nth-child(even) {
-    color: red;
-}
-li:nth-child(odd) {
-    color: green;
-}
 p:not(.text) {
     color: red;
 }
@@ -24,4 +18,22 @@ div {
 }
 .link:visited {
     color: blue;
+}
+li {
+    position: relative;
+}
+li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    position: absolute;
+    left: -20px;    
+}
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
 }
