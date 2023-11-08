@@ -12,8 +12,8 @@
     border: 3px solid blue;
     margin: 10px;   
     position: absolute;
-    left: 500px;  
-    top: 250px;  
+    left: 350px;  
+    top: 140px;  
 }
 .square__3 {
     width: 200px;
@@ -21,8 +21,8 @@
     border: 3px solid green;
     margin: 10px;
     position: absolute;
-    left: 800px;
-    top: 500px;
+    left: 500px;
+    top: 280px;
 }
 .square {
     position: relative;
