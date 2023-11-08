@@ -1,37 +1,24 @@
 .square__1 {
     width: 200px;
-    height: 200px;
-    border: 3px solid red;
-    background-color: red;
-    margin: 10px; 
-    position: absolute;
-    left: 200px;
-    z-index: 3;
+    height: 200px;    
+    background-color: white;    
+    position: absolute;   
+    left: 50px; 
+    top: 50px;
 }
 .square__2 {
     width: 200px;
-    height: 200px;
-    border: 3px solid blue;
-    background-color: blue;
-    margin: 10px;   
-    position: absolute;
-    left: 350px;  
-    top: 140px;  
-    z-index: 2;
-}
-.square__3 {
-    width: 200px;
-    height: 200px;
-    border: 3px solid green;
-    background-color: green;
-    margin: 10px;
-    position: absolute;
-    left: 500px;
-    top: 280px;
-    z-index: 1;
+    height: 200px;    
+    background-color: white;    
+    position: absolute;    
+    left: 950px;
+    top: 350px;
 }
 .square {
     position: relative;
+    background-color: aqua;
+    width: 1200px;
+    height: 600px;
 }
 
 
