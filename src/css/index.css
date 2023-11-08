@@ -13,3 +13,15 @@ li:nth-child(odd) {
 p:not(.text) {
     color: red;
 }
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;    
+}
+.link:link {
+    color: green;
+}
+.link:visited {
+    color: blue;
+}
