@@ -1,24 +1,22 @@
-.square__1 {
+.block1 {
     width: 200px;
-    height: 200px;    
-    background-color: white;    
-    position: absolute;   
-    left: 50px; 
-    top: 50px;
-}
-.square__2 {
-    width: 200px;
-    height: 200px;    
-    background-color: white;    
-    position: absolute;    
-    left: 950px;
-    top: 350px;
-}
-.square {
+    height: 2000px;
+    background-color: green;
     position: relative;
-    background-color: aqua;
-    width: 1200px;
-    height: 600px;
+}
+.block2__fix {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    background-color: brown;        
+    position: fixed;    
+    top: 100px;
+    left: 100px;  
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
 }
 
 
